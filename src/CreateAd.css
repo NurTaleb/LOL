@@ -1,0 +1,109 @@
+/*root{
+  --primaryColor:#7a63f1;
+  --seconderyColor:#ebe8fc;
+  --textColor:#a3a3a3;
+  --greyColor:#f4f4f4;
+  --whiteColor: #f5f4fa;
+  --blackColor:#434344;
+}*/
+
+.home {
+  padding-top: 8rem;
+}
+
+.secContainer {
+  padding: 0 1.5 rem;
+  text-align: center;
+  display: grid;
+  gap: 2rem;
+}
+
+.homeSpan {
+  font-size: 40px;
+  color: var(--textColor);
+  font-weight: 400;
+}
+
+.homeTitle {
+  font-size: 20px;
+  color: var(--blackColor);
+  font-weight: 700;
+}
+
+.btns {
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  font-size: 12px;
+}
+
+&:hover {
+  background: var(--primaryColor);
+  color: var(--whiteColor);
+}
+
+.btn:nth-child(1) {
+  background: var(--whiteColor);
+  color: var(--textColor);
+}
+
+&:hover {
+  background: var(--primaryColor);
+  color: var(--whiteColor);
+}
+
+.btn:nth-child(2) {
+  background: var(--whiteColor);
+  color: var(--textColor);
+}
+
+&:hover {
+  background: var(--whiteColor);
+  color: var(--textColor);
+}
+
+.homeImage {
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    position: absolute;
+    background: var(--seconderyColor);
+    width: 80%;
+    top: 7rem;
+    right: 50%;
+    left: 50;
+    transform: translate(-50%);
+    border-radius: 10px;
+    text-align: center;
+    padding: 2rem;
+    transition: 0.3s ease;
+    z-index: 2000;
+  }
+  .btnSubmit {
+    background: red;
+    color: #fff;
+  }
+}
+.searchContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.searchInput {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 5px 0;
+  flex-grow: 1;
+  min-width: 130px;
+}

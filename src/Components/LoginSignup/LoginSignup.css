@@ -1,0 +1,169 @@
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ffff;
+
+}
+
+
+
+.header { /* dehär är rubriken dawncars färg storlek och avstånd*/
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: red;
+    
+}
+
+.underline { /* linjen under dawncars rubriken */
+    width: 50px;
+    height: 2px;
+    background-color: red; 
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+.input img {  /* dehär är fär iconerna */
+  
+   filter: brightness;
+    width: 20px;
+    color: red;
+
+    
+  
+}
+.forgot-password span{  /* avståndet mellan img och text */
+    color: red;
+    cursor: pointer;
+}
+
+
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    margin-left: 10px;
+}
+.login-button {
+    /* Stilar för login-knappen här */
+    color: red;
+}
+
+.forgot-password { /*denhär är enbart för lost password texten*/
+    margin-top: 10px;
+    color: red;
+}
+
+.Submit-container { /* avstådet mellan knapparna och texten*/
+    margin-top: 20px;
+    
+}
+
+button { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    color: #cccc;
+    background: red;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    /* denhär redigerar submit knappen*/
+   
+    margin: 5px;
+    cursor: pointer;
+    color: red;
+    background-color: #cccc;
+    
+}
+
+
+.container{ /* hela bakgrund färgerna*/
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px; /* Justerad toppmarginal för iPhone SE */
+    background: #e5e0e0;  /*Vit bakgrundsfärg */
+    padding-bottom: 30px;
+}
+
+
+
+.input{ /* dehär är breden på backgrunden och färg och liknande*/
+    align-items: center;
+    margin: auto;
+    width: 300px; /* Anpassad bredd för iPhone SE */
+    height: 60px; /* Anpassad höjd för iPhone SE */
+    background: #cccc; /* Grå bakgrundsfärg */
+    border-radius: 6px;
+    margin-top: 30px; /* Justerad toppmarginal för iPhone SE */
+    display: flex;
+    flex-direction: row; /* Ändrad riktning till rad för iPhone SE */
+    justify-content: center; /* Centrerar innehållet horisontellt */
+    align-items: center; /* Centrerar innehållet vertikalt */
+}
+
+
+.input input{ /* denhär redigerar rutorna och texten*/
+    height: 40px; /* Anpassad höjd för iPhone SE */
+    width: 160px; /* Anpassad bredd för iPhone SE */
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 16px; /* Justerad fontstorlek för iPhone SE */
+}
+
+
+.submit, .gray{ /*Dehär är login och submitknapparnas storlekar ochposition */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    color: #bebcbc;
+    background: red;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+
+
+.gray{ /* dehär gör att login/signup knappen som jag trycker på blir grå*/
+    background: #cccc; /* Grå bakgrundsfärg */
+     color: #e61616;  /* Mörkgrå textfärg */
+}
+  
+
+
+
+
+
+
